@@ -23,6 +23,7 @@ export const signUpApi = (payload) => {
 }
 
 export const getMeApi = (payload) => {
+   console.log(1);
    return axios
       .get('/users/me')
       .then(({ data }) => data)
