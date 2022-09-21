@@ -1,16 +1,17 @@
-.wrapper{
+.wrapper {
    padding-top: 5px;
    max-width: 1300px;
 }
 
-.tweets{
+.tweets {
    border-color: #E1E8ED;
    border-style: solid;
    border-width: 0 1px 0 1px;
+   min-width: 550px;
    // border-right: 1px soid #AAB8C2;
    // border-left: 1px soid #AAB8C2;
 
-   &__header{
+   &__header {
       padding: 12px 20px;
       font-size: 20px;
       font-weight: 800;
@@ -19,7 +20,7 @@
       align-items: center;
    }
 
-   &__spinLoading{
+   &__spinLoading {
       text-align: center;
       margin-top: 50px;
    }

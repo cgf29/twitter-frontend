@@ -38,7 +38,7 @@ const Home = () => {
    }, [window.location.pathname])
 
    const loadingSpin = <LoadingOutlined style={{ fontSize: 40 }} spin />
-   
+
    return (
       <div>
          <Row className='wrapper'>
@@ -57,14 +57,14 @@ const Home = () => {
                   <Route exact path={['/home', '/home/search/:id']}>
                      <Typography>Home</Typography>
                   </Route>
-                   <Route exact path={['/user', '/user/:id']}>
+                  <Route exact path={['/user', '/user/:id']}>
                      <Typography>{user ? user.username : 'User'}</Typography>
                   </Route>
                   <Route exact path={['/user/:id/followers', '/user/:id/following']}>
                      <Typography>{user ? user.username : 'User'}</Typography>
                   </Route>
                </div>
-               <Route exact path={['/home', '/home/search/q=:id']} exact>
+               <Route exact path={['/home', '/home/search/q=:id']}>
                   <CreateTweetForm type='add' />
                   <div style={{ backgroundColor: '#d9d9d9', height: 10 }}></div>
                </Route>
