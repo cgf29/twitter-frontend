@@ -1,0 +1,54 @@
+.twitter{
+   margin-bottom: 5px;
+   padding: 10px;
+   margin-right: 50px;
+   border-radius: 24px;
+   display: inline-block;
+   transition-duration: .1s;
+   cursor: pointer;
+
+   &:hover{
+      background-color: #E1E8ED;
+   }
+   & > a > span{
+      font-size: 25px;
+      color: #000
+   }
+
+   & > a > article{
+      font-size: 20px;
+      font-weight: 700;
+   }
+}
+
+.list-item {
+   margin-bottom: 5px;
+   padding: 10px 14px 10px 14px;
+   border-radius: 24px;
+   display: inline-block;
+   transition-duration: .1s;
+   cursor: pointer;
+
+   &:hover{
+      background-color: #E1E8ED;
+
+      & > a > span{
+         color: #1DA1F2;
+      }
+      & > a > article{
+         color: #1DA1F2;
+      }
+   }
+
+   & > a > span{
+      margin-right: 25px;
+      font-size: 25px;
+      color: #000;
+   }
+
+   & > a > article{
+      font-size: 20px;
+      font-weight: 700;
+
+   }
+}

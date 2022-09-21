@@ -1,0 +1,85 @@
+.full-tweet{
+   display: flex;
+   flex-direction: column;
+   padding: 15px;
+
+   &__name{
+      display: flex;
+      flex-direction: column;
+      margin-left: 15px;
+
+         & > b{
+            font-size: 15px;
+            font-weight: 700;
+         }
+         & > span{
+            font-size: 15px;
+            font-weight: 400;
+            color: #5b7083;
+         }
+   }
+
+   &__header{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 25px;
+   }
+
+   &__text{
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__right-top{
+      display: flex;
+      flex-direction: row;
+   }
+
+   &__more{
+      height: 40px;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 20px;
+
+      &:hover{
+         background-color: #E1E8ED;
+      }
+
+      & > span{
+         font-size: 20px;
+      }
+   }
+
+   &__text{
+      font-size: 23px;
+      font-weight: 400;
+      margin-bottom: 25px;
+   }
+
+   &__date{
+      font-size: 15px;
+      font-weight: 400;
+      color: #5b7083;
+   }
+
+   &__btns{
+      padding: 14px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      border-top: 1px solid #ebeef0;
+      border-bottom: 1px solid #ebeef0;
+
+      & > div > button > span{
+         font-size: 20px;
+         color: #5b7083;
+         border-radius: 20px;
+         padding: 10px;
+
+         &:hover{
+            background-color: #E1E8ED;
+         }
+      }
+   }
+}

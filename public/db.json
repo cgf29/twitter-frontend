@@ -1,0 +1,91 @@
+{
+  "tweets": [
+    {
+      "id": 1,
+      "_id": "607dd9b194adbaff60bad624",
+      "text": "Aliqua dolor minim dolor aliqua. Eu commodo anim ipsum ut adipisicing incididunt magna laborum consectetur do consequat aliqua. Reprehenderit eiusmod minim in qui. Nulla velit cupidatat occaecat quis elit ea qui ex consequat officia in in fugiat laboris. Cillum incididunt qui laborum est laboris veniam veniam dolor. Minim ea Lorem voluptate nisi velit qui est aliqua. Ad dolore minim officia est et esse. Elit veniam ex laboris esse aute adipisicing tempor nostrud aliquip reprehenderit veniam duis. Nisi do dolor velit excepteur quis commodo est duis aliqua. Sit qui eiusmod officia incididunt consectetur minim duis commodo elit pariatur fugiat culpa sunt.",
+      "user": {
+        "fullName": "Hunt Wolfe",
+        "userName": "dianne",
+        "avatar": "https://source.unsplash.com/random/100x100"
+      }
+    },
+    {
+      "_id": "3zi2t8nme97",
+      "text": "tweet",
+      "user": {
+        "fullName": "Test User",
+        "userName": "test",
+        "avatar": "https://source.unsplash.com/random/100x100"
+      },
+      "id": 2
+    },
+    {
+      "_id": "ha325cfkjdp",
+      "text": "test modal",
+      "user": {
+        "fullName": "Test User",
+        "userName": "test",
+        "avatar": "https://source.unsplash.com/random/100x100"
+      },
+      "id": 3
+    },
+    {
+      "_id": "7o762y3gtzu",
+      "text": "first",
+      "user": {
+        "fullName": "Test User",
+        "userName": "test",
+        "avatar": "https://source.unsplash.com/random/100x100"
+      },
+      "id": 4
+    },
+    {
+      "_id": "psdth886tb",
+      "text": "good morning",
+      "user": {
+        "fullName": "Test User",
+        "userName": "test",
+        "avatar": "https://source.unsplash.com/random/100x100"
+      },
+      "id": 5
+    },
+    {
+      "_id": "nkewlkffqn",
+      "text": "..",
+      "user": {
+        "fullName": "Test User",
+        "userName": "test",
+        "avatar": "https://source.unsplash.com/random/100x100"
+      },
+      "id": 6
+    }
+  ],
+  "user": {
+    "fullName": "Vanya Svyatun",
+    "userName": "cgf",
+    "avatar": "https://source.unsplash.com/random/100x100"
+  },
+  "tags": [
+    {
+      "_id": "607dd9b194adbaff60bad624",
+      "name": "React",
+      "count": "49280"
+    },
+    {
+      "_id": "607dd9b194aaba8f60bad624",
+      "name": "Python",
+      "count": "7226"
+    },
+    {
+      "_id": "607dd0b194adbaff62bad624",
+      "name": "Redux",
+      "count": "55270"
+    },
+    {
+      "_id": "607dd9b154adfaff60bad624",
+      "name": "JavaScript",
+      "count": "2940"
+    }
+  ]
+}

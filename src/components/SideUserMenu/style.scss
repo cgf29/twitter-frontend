@@ -1,0 +1,37 @@
+.side-user{
+   display: flex;
+   justify-content: space-around;
+   cursor: pointer;
+   border-radius: 20px;
+   padding: 10px;
+
+   &:hover{
+      background-color: #E1E8ED;
+   }
+
+   &__name{
+      display: flex;
+      flex-direction: column;
+
+      & > b{
+         font-size: 15px;
+         font-weight: 700;
+      }
+
+      & > span{
+         font-size: 15px;
+         font-weight: 400;
+         color: #5b7083;
+      }
+   }
+}
+
+.popup{
+   list-style: none;
+   font-size: 16px;
+
+   & > li > span{
+      margin-top: 10px;
+      cursor: pointer;
+   }
+}

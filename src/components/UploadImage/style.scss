@@ -1,0 +1,41 @@
+.upload-icon{
+   & > span{
+      cursor: pointer;
+      color: #1890ff;
+      font-size: 20px;
+      border-radius: 20px;
+      padding: 10px;
+
+      &:hover{
+         background-color: #E1E8ED;
+      }
+   }
+}
+
+.images-list{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-top: 15px;
+
+   &__item{
+      width: 50px;
+      // width: 20%;
+      height: 50px;
+      overflow: hidden;
+      background-position: center;
+      background-size: cover;
+      border-radius: 6px;
+      // margin-right: 10px;
+      margin-bottom: 10px;
+   }
+
+   & > div > span{
+      position: relative;
+      top: -70px;
+      left: 33px;
+      border-radius: 20px;
+      padding: 1px;
+      background-color: red;
+   }
+}

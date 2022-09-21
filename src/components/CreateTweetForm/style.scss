@@ -1,0 +1,45 @@
+.create-tweet{
+   // margin-top: 35px;
+   padding: 15px;
+   display: flex;
+   justify-content: space-between;
+
+   &__main{
+      flex-direction: column;
+      width: 87%;
+   }
+
+   &__text-area > textarea{
+      font-size: 20px;
+   }
+
+   &__btns{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+
+      & > button{
+         font-weight: 700;
+         flex-grow: 0.5;
+      }
+
+      & *{
+         flex-grow: 2;
+      }
+
+      & > div{
+         display: flex;
+         justify-content: space-between;
+
+         & > span{
+            flex-grow: 0.3;
+         }
+
+         & > span{
+            cursor: pointer;
+            color: #1890ff;
+            font-size: 20px;
+         }
+      }
+   }
+}

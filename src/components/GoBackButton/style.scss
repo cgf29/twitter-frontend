@@ -1,0 +1,13 @@
+.go-back{
+   & > span{
+      cursor: pointer;
+      margin-right: 25px;
+      color: #1890ff;
+      padding: 7px;
+      border-radius: 30px;
+   
+      &:hover{
+         background-color: #E1E8ED;
+      }
+   }
+}
