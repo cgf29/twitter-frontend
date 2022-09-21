@@ -2,7 +2,7 @@ import { axios } from './axios'
 
 export const signInApi = (payload) => {
    return axios
-      .post('/login', {
+      .post('/auth/login', {
          username: payload.payload.email,
          password: payload.payload.password,
       })
@@ -12,7 +12,7 @@ export const signInApi = (payload) => {
 export const signUpApi = (payload) => {
    console.log(payload)
    return axios
-      .post('/register', {
+      .post('/auth/register', {
          username: payload.payload.username,
          fullname: payload.payload.fullname,
          email: payload.payload.email,
@@ -23,7 +23,6 @@ export const signUpApi = (payload) => {
 }
 
 export const getMeApi = (payload) => {
-   console.log(1);
    return axios
       .get('/users/me')
       .then(({ data }) => data)
